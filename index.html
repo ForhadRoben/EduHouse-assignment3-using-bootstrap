@@ -209,15 +209,89 @@
 
                     </div>
                 </div>
-                <button type="" class="btn btn-primary ms-auto">Sign In</button>
-                <a href="#" class="btn bg-info mt-4 w-25 mx-auto"> Shop Now</a>
+                <div class="position-relative mt-4 ">
+                    <button
+                        class=" btn btn-primary text-light position-absolute top-50 start-50 translate-middle-x fw-semibold d-none d-lg-block  ">See
+                        More Courses</button>
+                </div>
+
+                <div class="text-center mt-4">
+                    <button class="btn btn-primary text-light fw-semibold fs-4 d-lg-none ">View All</button>
+                </div>
+
             </div>
-
-
-
-
         </section>
         <!-- Courses section end  -->
+
+        <!-- Join and modal section start  -->
+
+        <section>
+            <div style="height: 300px ;"
+                class=" container bg-primary mt-5 mb-5 rounded d-flex flex-column flex-md-column flex-lg-row justify-content-around align-items-center">
+                <div class="text-white">
+                    <h2>Ready to join?</h2>
+                    <p>Why you select us?<br>
+                        Because we have the best inviroment to learn.
+                    </p>
+                </div>
+                <div>
+
+                    <button type="button" class="btn btn-light text-primary fw-semibold" data-bs-toggle="modal"
+                        data-bs-target="#modalRegister">
+                        Register Now
+                    </button>
+                    <div class="modal fade " tabindex="-1" id="modalRegister">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Register Now</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                                        <!-- <span>&times;</span> -->
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form class="row g-3">
+                                        <div class="col-md-6">
+                                            <label for="inputfirstName" class="form-label">First name</label>
+                                            <input type="text " class="form-control" id="inputfirstName"
+                                                placeholder="First name">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="inputlastName" class="form-label">Last name</label>
+                                            <input type="text " class="form-control" id="inputlastName"
+                                                placeholder="Last name">
+                                        </div>
+                                        <div class="col-md-12">
+                                            <label for="inputEmail4" class="form-label">Email</label>
+                                            <input type="email" class="form-control" id="inputEmail4"
+                                                placeholder="Enter Email">
+                                        </div>
+                                        <div class="col-md-12">
+                                            <label for="inputPassword4" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="inputPassword4">
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="submit" class="btn btn-primary">Sign In</button>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
 
 
     </main>
