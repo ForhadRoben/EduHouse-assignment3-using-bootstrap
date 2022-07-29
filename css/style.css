@@ -1,0 +1,22 @@
+/* font style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* utilities */
+body {
+    margin: 0 auto;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* carousel slide  */
+.bg-image-dark img {
+    filter: brightness(50%)
+}
+
+/* media queries */
+@media only screen and (max-width:992px) {
+    .carousel-item img {
+        height: 100vh;
+        object-fit: cover;
+    }
+}
